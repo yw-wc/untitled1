@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>个人中心</title>
 </head>
 <body>
-$END$
+<h2><%=session.getAttribute("username")%></h2>
 </body>
 </html>
